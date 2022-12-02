@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, main {
+	min-height: 100vh;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-rendering: optimizeLegibility;
+	font-style: normal;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+hr {
+	border-color: rgb(205, 205, 205);
+	border-width: 2px;
+	margin: 0;
+}
+
+#soon hr {
+	border-color: rgb(150, 150, 150);
+	border-width: 2px;
+	margin: 50;
+	padding-bottom: 0px;
+}
+
+.section {
+	padding: 100px 20%;
+	padding-top: 60px;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: "Cochin" !important;
+	margin-bottom: -7px;
+}
+
+section h4 {
+	color: rgb(84, 84, 84);
+	margin: 30px 0;
+}
+
+#comingsoon {
+	min-height: calc(100vh);
+	width: auto;
+	background: #FFF url("../images/curious.png") center no-repeat;
+	background-size: cover;
+}
+
+#soon h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	text-shadow: 0px 0px 30px black;
+	font-weight: 550;
+	margin: 0px !important;
+}
+
+#soon h4 {
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	text-shadow: 0px 0px 30px black;
+	font-family: "Segoe UI",Arial,sans-serif !important;
+	font-weight: 550;
+	margin: 30px 0;
+}
+
+#soon p {
+	font-size: 11px;
+	margin: 0px !important;
+	padding-top: 198px;
+	text-shadow: 0px 0px 10px black;
+	font-family: "Segoe UI",Arial,sans-serif !important;
+	font-weight: 300 !important;
+	color: white;
+	padding: 20px;
+	text-align: -webkit-right;
+	text-align: right;
+	vertical-align: bottom;
+}
