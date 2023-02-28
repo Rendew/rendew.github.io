@@ -24,7 +24,7 @@ hr {
 }
 
 #soon hr {
-	border-color: rgb(150, 150, 150);
+	border-color: rgba(255, 255, 255, 0.51);
 	border-width: 2px;
 	margin: 50;
 	padding-bottom: 0px;
