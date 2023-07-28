@@ -1,0 +1,46 @@
+title = "Woody Run Cycle"
+background = "media/woodyruncycle/RunWoody.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "July 5 - 6, 2022"
+
+[[body.element]]
+video = ["media/woodyruncycle/RunCycle.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 390. FPS: 29.97. Working time: 28 hrs. Maya Viewport Playblast."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Quick running animation for Woody capturing his iconic running style and classic Pixar animation."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Animation"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "I didn't animate his holster, but it's mighty fine, ain't it?"

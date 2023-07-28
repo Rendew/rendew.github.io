@@ -1,0 +1,28 @@
+title = "New Again"
+background = "media/newagain/NewAgain.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "December 29, 2021 - February 4, 2022"
+
+[[body.element]]
+video = ["media/NewAgain.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: ???. FPS: 24. Working time: ??? hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming Soon!"

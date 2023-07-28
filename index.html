@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Rendew</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#51beb4">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<header class="w3-top"></header>
+		<script>$("header").load("common/header.html")</script>
+		<main>
+			<section id="hero">
+				<p id="titlecredits">Created by Rendew. &copy Rendew</p>
+			</section>
+			<section id="sectionindex" class="w3-container w3-center w3-light-grey section">
+							<div id="sectionindexwid" class="w3-lightgrey">
+				<div><h1 id="rendewindex"><strong>Rendew</strong></h1></div>
+				<h2 id="slogan">Hard is Great</h2>
+				<hr />
+				<h4>With a new state-of-the-art framework optimized for physically-based rendering, Rendew Animation Studios chooses to use Renderman for each and every render.</h4>
+			</div>
+			</section>
+			<section id="videosection" class="w3-container w3-center w3-light-grey section">
+				<div class="video">
+					<video width="640" height="360" controls playsinline>
+  						<source src="media/WoodyTestAnimationFinal.mov" type="video/mp4">
+  						<source src="media/WoodyTestAnimationFinal.mp4" type="video/mp4">
+					</video>
+				</div>
+				<p>Render time: aprox. 3 hrs. Frames: 316. FPS: 29.97. Working time: 72 hrs. Rendered with Renderman.</p>
+			</section>
+			<section class="w3-container w3-center luxo">
+				<h2><strong>Our Renders</strong></h2>				
+				<p>We refuse to pollute the internet with more trash, so we only make quality renders.</p>
+				<a href="renders.html" id="renderbutton" class="w3-bar-item w3-button w3-hover-none w3-text-light-grey w3-hover-text-white w3-round-xxlarge  w3-xlarge">See All Renders</a>
+			</section>
+			<section class="w3-container w3-center projects">
+				<h2><strong>Projects</strong></h2>				
+				<p>See what else we've worked up.</p>
+				<a href="projects.html" id="renderbutton" class="w3-bar-item w3-button w3-hover-none w3-text-light-grey w3-hover-text-white w3-round-xxlarge  w3-xlarge">See Projects</a>
+			</section>
+		</main>
+		<footer class="w3-center"></footer>
+		<script>$("footer").load("common/footer.html")</script>
+		<script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
+		<script>const players = Plyr.setup('video', { controls: ['play-large', 'play', 'mute', 'volume', 'current-time', 'progress', 'duration', 'pip', 'fullscreen'] });</script>
+	</body>
+
+</html>

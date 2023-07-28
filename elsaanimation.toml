@@ -1,0 +1,37 @@
+title = "Elsa Animation"
+background = "media/elsaanimation/Backy2.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Elsa &copy Walt Disney Animation Studios."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "=???, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/elsaanimation/Backy2.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+video = ["media/elsaanimation/blastlcYRK7.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: ???. FPS: 24. Working time: ??? hrs. Maya Viewport Playblast."
+loop = true
+
+[[body.element]]
+video = ["/Users/pipo/Desktop/catagorys/Rendew/media/elsaanimation/ElsaAnimation.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: ???. FPS: 24. Working time: ??? hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"

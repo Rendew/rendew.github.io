@@ -1,0 +1,27 @@
+title = "Toy Story 5 Poster"
+background = "media/woody5poster2/ToyStory5PosterFinalFix.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "???, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster2/ToyStory5PosterFinalFix.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Another try at making a photorealistic Toy Story 5 poster. Coming soon!"

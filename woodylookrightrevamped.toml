@@ -1,0 +1,27 @@
+title = "Woody Look Right Revamped"
+background = "media/woodylookrightrevamped/WoodyLookRightRevamped__ShotCamShape_beauty.0005Sharp.exr.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy Disney/Pixar."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "February 13 - 28, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookrightrevamped/WoodyLookRightRevamped__ShotCamShape_beauty.0005Sharp.exr.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"

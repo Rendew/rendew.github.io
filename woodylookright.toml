@@ -1,0 +1,110 @@
+title = "Woody Look Right"
+background = "media/woodylookright/curious.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "April 11-July 14, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/curious.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "After surfacing Woody for the 5th time, I decided to do a photorealism test since Woody now had fine details. I wanted to render this huge, and for it to look like a desktop picture. I chose a pose heavily inspired by a promotional image for Toy Story 4. After posing him, adding some lights and adding depth of field, I realized that a lot of things were off."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/WoodyLookRight__perspShape_beauty.0000.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/curiousstillold.png"
+
+[[body.element]]
+tag = "h4"
+content = "It looked very bland, so I fixed the color of the main light and the color of his eyes and his bandana. I also lessened the bump on his cloth, puffed up his right arm, and spent the bulk of my time making a new pearl shader for his pearl button, just barely visible at the bottom."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/Viewport1.png"
+
+[[body.element]]
+tag = "h4"
+content = "Then I corrected the color of his shirt, making it more orange and making the red squares darker."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/Viewport2.png"
+
+[[body.element]]
+tag = "h4"
+content = "After that, I decided to add subsurface scattering to his face. Woody's face is made of Polyvinyl plastic, which looks soft and squishy. Subsurface scattering gives things that effect by allowing light to bounce around and then exit an objects surface. Human skin is a great example of subsurface scattering. You can see its effect when you shine a light behind your fingers. Your fingers appear to glow red. This doesn't happen with other objects like metal."
+
+[[body.element]]
+tag = "h4"
+content = "After researching about subsurface scattering, I tried to put some on Woody's face, but I found that it wasn't very noticeable."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/Viewport3.png"
+caption = "You can kind of see the subsurface in Woody's ear. You can also see I fixed the colors of his bandana."
+
+[[body.element]]
+tag = "h4"
+content = "This is because Woody's face has an inside and an outside, because he has a mouth. This gives extra layers for the SS to go through. So I gave Woody as much subsurface scattering as I could."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/Viewport5.png"
+caption = "I also added an orange light on the left."
+
+[[body.element]]
+tag = "h4"
+content = "Then I decided to add cloth hair. This was a tricky step, because I wanted it to look as real as possible. Adding hair all over Woody was going to take a lot of time and computing power. I also didn't quite know how I was going to shade the hair."
+
+[[body.element]]
+tag = "h4"
+content = "I used Maya's instancer, Xgen to instance hair all over Woody. I groomed the hair to be a little frizzy, but something was still missing. I soon realized that all of the hairs were rectangular. Old fabric's hair is more triangular in its shape. So I used a function to vary how triangular each hair was."
+
+[[body.element]]
+tag = "h4"
+content = "Now I still had the problem of shading. I had done cloth hair before, with the Woody Poster I did, but what I did back then was just to give the hair a Pxr Surface and then give it a little bit of transparency. That wasn't going to work this time. I needed something more realistic. Thankfully, Renderman has a Pxr Marschner Hair shading tool, which simulates how real hair works."
+
+[[body.element]]
+tag = "h4"
+content = "I shaded the hair with the Pxr Marschner Hair shader, but I found it a bit confusing. After hours and hours of changing thousands of parameters and re-rendering and waiting for it to render so I could see something, I finally had a hair shader that worked and looked stunning. However, when grooming the hair for Woody's bandana, I messed up the settings and I couldn't finish grooming the hair, so they look too straight."
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/curiousnewbutold.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/WoodyLookRightHair__perspShape_beauty.0000.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodylookright/curious.png"
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "Woody Look Right was very necessary in making a realistic cloth hair shader and I'm so happy with how it turned out."

@@ -1,0 +1,27 @@
+title = "Woody Pose"
+background = "media/woody5posenew/Woody5PoseNew__cameraShape4_beauty.0015.exr.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "???, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5posenew/Woody5PoseNew__cameraShape4_beauty.0015.exr.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"

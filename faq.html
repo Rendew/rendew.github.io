@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>FAQ</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#006f6a">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<header class="w3-top"></header>
+		<script>$("header").load("common/header.html")</script>
+		<main>
+			<section id="herofaq">
+			<h1 id="title">FAQ</h1>
+			<p id="titlecreditsfaq">Toy Story &copy Disney/Pixar</p>
+			<div class="w3-display-topright w3-large">Middle</div>
+			</section>
+			<section id="sectionfaq" class="w3-container w3-center w3-light-grey sectionfaq">
+				<div id="faqthing">
+
+				<button id="question" onclick="show('faq1')" class="w3-button w3-block w3-left-align w3-white">Are you affiliated with Disney or Pixar?</button>
+				<div id="faq1" class="w3-container w3-left-align w3-white w3-hide">
+					<p>No, we are not affiliated with Disney or Pixar in any way.</p>
+				</div>
+				<button id="question" onclick="show('faq2')" class="w3-button w3-block w3-left-align w3-white">I have an idea for an animation. Where do I submit it?</button>
+				<div id="faq2" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Uh, I don't know where that rumor got started, but we do not accept suggestions. Sorry.</p>
+				</div>
+
+				<button id="question" onclick="show('faq4')" class="w3-button w3-block w3-left-align w3-white">Why did you make this site?</button>
+				<div id="faq4" class="w3-container w3-left-align w3-white w3-hide">
+					<p>We made it as a more efficient way of showcasing our work.</p>
+				</div>
+				<button id="question" onclick="show('faq5')" class="w3-button w3-block w3-left-align w3-white">Part of the website is broken. Should I do something or...?</button>
+				<div id="faq5" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Yes, absolutely! Contact us and tell us exactly what's going on and we will personally get back to you as soon as possible.</p>
+				</div>
+				<button id="question" onclick="show('faq6')" class="w3-button w3-block w3-left-align w3-white">I would like to use your rigs and 3D models for educational purposes. How do I do that?</button>
+				<div id="faq6" class="w3-container w3-left-align w3-white w3-hide">
+					<p>As stated, the purpose of this site is to showcase our work. We do not have plans to release our rigs or 3D models to the open source community or the public, except as expressly permitted by us.</p>
+				</div>
+				<button id="question" onclick="show('faq7')" class="w3-button w3-block w3-left-align w3-white">What do you use to create these renders?</button>
+				<div id="faq7" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Autodesk's Maya, Pixar's Renderman, a lot of time, a brain, and lots of going-back-to-the-drawing-board-ing.</p>
+				</div>
+				<button id="question" onclick="show('faq8')" class="w3-button w3-block w3-left-align w3-white">Most of your renders are Woody. Why?</button>
+				<div id="faq8" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Why not? Sheriff Woody is an excellent subject for animation and rendering.</p>
+				</div>
+				<button id="question" onclick="show('faq11')" class="w3-button w3-block w3-left-align w3-white">Most of the renders here are very low quality. Why?</button>
+				<div id="faq11" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Early on when talent was still untrained, the quality of renders and animation was below what we wanted it to be. Lately, experience has brought higher-quality renders and animation. Otherwise, it's usually noisy images that are a product of short render times.</p>
+				</div>
+				<button id="question" onclick="show('faq12')" class="w3-button w3-block w3-left-align w3-white">Your website doesn't work on Internet Explorer.</button>
+				<div id="faq12" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Now that's not even a question. Who wrote these questions?? Oh, yes, I remember, it was me. Anyway, the incompatibility with Internet Explorer is to be expected... and if you have Internet Explorer you should probably get a new machine; yours might die tomorrow. Or twenty years ago.</p>
+					<h6><strong>Disclamer: This website does NOT work on Internet Explorer, Safari 5.0 and lower, WorldWideWeb, TenFourFox, Yandex Browser, Netscape, iCab, or SeaMonkey.</strong></h6>
+				</div>
+				<button id="question" onclick="show('faq9')" class="w3-button w3-block w3-left-align w3-white">I want to either praise or yell at you. How do I get in contact?</button>
+				<div id="faq9" class="w3-container w3-left-align w3-white w3-hide">
+					<p>You can email us <a class="button" href="mailto:rendewanim@icloud.com">here</a>.</p>
+
+				</div>
+				<button id="question" onclick="show('faq10')" class="w3-button w3-block w3-left-align w3-white">A question I have is not listed here. How do I ask one?</button>
+				<div id="faq10" class="w3-container w3-left-align w3-white w3-hide">
+					<p>Hopefully, this FAQ answered all of them. If your question wasn't answered, please try to contact us.</p>
+				</div>
+				</div>
+				<div class="container">
+				<img id="woodyfaq" src="media/woody5posenew/Woody5PoseNew__cameraShape4_beauty.0015.exr.png" width="500" height "200">
+				<p id="imagecredits">Woody &copy Disney/Pixar</p>
+				</div>
+			</section>
+		</main>
+		<footer class="w3-center"></footer>
+		<script>$("footer").load("common/footer.html")</script>
+		<script>
+			function show(id) {
+				var x = document.getElementById(id);
+				if (x.className.indexOf("w3-show") == -1) {
+					x.className += " w3-show";
+				} else { 
+					x.className = x.className.replace(" w3-show", "");
+				}
+			}
+		</script>
+	</body>
+
+</html>

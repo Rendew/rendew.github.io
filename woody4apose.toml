@@ -1,0 +1,130 @@
+title = "Woody Poster"
+background = "media/woody4apose/FinalDesktop.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "February 4-24, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/gallery/Render.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "When making the short film New Again, I realized that Woody's materials were not nearly detailed enough for use in animation. I decided then and there that I would get Woody to look as good as I could, with scratches and cloth hair. And I wouldn't rest till it was done. In hindsight, this was very essential to all the other times I resurfaced Woody. This was the base for everything I would do in the future. Plus, I love the crazy lighting."
+
+[[body.element]]
+tag = "h4"
+content = "So in order to create the most accurate Woody, I needed to have accurate reference. I decided to recreate the main poster for Toy Story 4. If I got the lighting and the pose close enough, I could surface with much more certainty than if I just did my own lighting and pose."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Posing"
+
+[[body.element]]
+tag = "h4"
+content = "As I mentioned, in order to get accurate lighting and, eventually, surfacing, I needed to make the pose as exact as I could. I started by placing the camera perpendicular to Woody's body and proceeded in posing him with an image plane behind him. His face was particularly hard, and I had much trouble through the whole thing in order to make his smile just right."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Lighting"
+
+[[body.element]]
+tag = "h4"
+content = "With the pose being decent, I started working on the lighting. After a few days it looked like this:"
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render1.png"
+caption = "All his materials are straight from Woody 4 Pose. He's definitely not smiling enough."
+
+[[body.element]]
+tag = "h4"
+content = "I quickly realized that his hat was completely the wrong color. So I fixed the color of all of his materials and added subsurface scattering to most of them. I also added more to the lighting."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render2.png"
+caption = "His hat looks a lot better."
+
+[[body.element]]
+tag = "h4"
+content = "Then I spent tons of time adding scratches and normal maps:"
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render5.png"
+
+[[body.element]]
+tag = "h4"
+content = "I spent the next few days adding subsurface scattering to his cloth. This was really challenging because I had never worked with subsurface scattering before and it takes a very long time to render, so trial and error took way too much time."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render6.png"
+
+[[body.element]]
+tag = "h4"
+content = "Then I adjusted his pose a bit, and ended up ruining his mouth."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render8.png"
+
+[[body.element]]
+tag = "h4"
+content = "Then I fixed his mouth and changed his cloth normal maps."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render11.png"
+
+[[body.element]]
+tag = "h4"
+content = "After that, I adjusted the lighting a bit and added the background."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Render10.png"
+caption = "Whoops! I'm not exactly sure why his mouth is broken there."
+
+[[body.element]]
+tag = "h4"
+content = "Then I realized that Woody didn't have a pull-string, so I added that. Then I added cloth hair with Maya's Xgen, which was actually surprisingly easy to do, and gave them standard PxrSurface materials. After that, I spent six hours rendering it at 10240x5760, which is, to date, the biggest render I've ever done."
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/Woody4APoseClot5h__perspShape_beauty.0002.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody4apose/FinalDesktop.png"
+caption = "Sorry that it looks a little weird; I had to do a cheap photoshop job because I couldn't get the background by itself."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "This was really fun to do, and it looks very nice!"
+
+[[body.element]]
+tag = "img"
+src = "media/gallery/Render.png"

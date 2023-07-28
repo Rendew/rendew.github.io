@@ -1,0 +1,306 @@
+title = "Woody Thanksgiving"
+background = "media/gallery/Thanksgiving.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody and Buzz &copy; Disney/Pixar. Luxo &copy; Jac Jacobsen Industrier A.S."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "November 9-23, 2022"
+
+[[body.element]]
+video = ["media/woodythanksgivings/ThanksgivingFinalRenderFinalSound.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Working time: 60 hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Woody Thanksgiving was a test to create and render a scene with file referencing and batch rendering. After finding a line of Tom Hanks saying, “Buzz, can't you just say, 'Happy Thanksgiving'!” I decided that would be a perfect line to animate to and render it just before Thanksgiving. I paused work on Woody Face Test to do this."
+
+[[body.element]]
+tag = "h2"
+content = "Animation"
+
+[[body.element]]
+tag = "h4"
+content = "With the concept art done, I decided to go on to animation, which I would later learn was not a good idea. I had done one thing: staging, but not the other: layout. Jumping straight to animation was a big mistake that costed me a lot of time."
+
+[[body.element]]
+tag = "h4"
+content = "I started animation and finished Woody's animation in two days, and then imported Buzz and animated him in the next two days. The Buzz I was using was rigged, but didn't have any controllers or inverse kinematics. This made animating Buzz extremely difficult in that his eyes moved exactly with his head which made him look unfeeling and soulless–a problem animators faced in the original Toy Story. In order to combat this, I would have to animate his eyes in the opposite direction that his head was moving. The problem was that I had done the spline editing on his head, so I would have to somehow make the inverted version of the splines I had put on his head. Plus, I had done the splines for his head's rotation, and I could only move Buzz's eyes through  translation. So I decided not to animate his eyes at that part, because it would take too much time. After four days the animation was finished."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blastsAfWZ6.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 53. FPS: 24. Maya Viewport Playblast. This doesn't have audio."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blastkPG6Yq.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. There's still no audio."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blastEAnm5s.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. I finally added the audio."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blasteYYR1v.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. Crude Buzz animation."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blast4Rffok.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. Final animation (except I changed Buzz's eyebrows and I made Woody's bandana knot visible later)."
+
+[[body.element]]
+video = ["media/woodythanksgivings/blastEbPse5.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. Final animation with awesome footwork that nobody is going to see."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Lighting"
+
+[[body.element]]
+tag = "h4"
+content = "After finishing the animation, I exported the last frame's models as an .obj. I imported that obj into Andy's room, and positioned the stand-in Buzz and Woody where I needed. I then proceeded with the lighting, using reference from the colorscripts from the Black Friday Toy Story (the one with ventriloquist dummy Woody), Toy Story, Toy Story 2 and Toy Story 3."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Script1.png"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Script2.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Script3.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Script4.png"
+
+[[body.element]]
+tag = "h4"
+content = "I saw a lot of green and blue, which is very different from the Toy Story we know, probably due to technical limits. So, I decided to make the lighting for Woody Thanksgiving like what Pixar wanted Toy Story to look like near the beginning of production."
+
+[[body.element]]
+tag = "h4"
+content = "I imported the stand-in Woody and Buzz, but there was a problem. I wanted them to be on Andy's desk, and they were in the middle of Andy's room. They were also much smaller than they should be. Easy solution: move and scale them how you want. So that's exactly what I did, which was a big mistake."
+
+[[body.element]]
+tag = "h4"
+content = "I then realized that I didn't have a camera. The camera that I perfectly placed to in the animation file (which I named ThanksCam) wasn't there in the Andy's Room file. Therefore, I couldn't get the exact angle. I couldn't just put the camera in though, because then the camera would be filming the middle of Andy's room, because I had scaled and moved Woody and Buzz away from where they were when I imported them. I also rotated them, which would ruin the camera angle if I tried to recreate it."
+
+[[body.element]]
+tag = "h4"
+content = "I didn't really need a camera at that point because I was working on the lighting; I would only need ThanksCam for fine details, such as the light reflecting in the corner of Woody's eyes. So I started on the lighting."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/FirstLighting.png"
+caption = "You can see the little blue buckets on the edges, ha ha."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/2andysroomthanksgiving__cameraShape2_beauty.0086.exr.png"
+caption = "Buzz still has no materials... sorry for ruining your childhood."
+
+[[body.element]]
+tag = "h4"
+content = "It looked nice and original, but now I questioned its authenticity. Could people be tricked into thinking this was actually from the movies? (The answer probably yes... the average person doesn't have a very good attention to detail). I ditched the very-green idea, and kept working on the lighting. I also added Woody's hat material just to see the reflections, but I leaned later that the material was not accurate because Woody was scaled up."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/andysroomthanksgiving__cameraShape2_beauty.0087.exr.png"
+caption = "Watch out, Buzz!"
+
+[[body.element]]
+tag = "h4"
+content = "With the lighting as done as it could be for the time, I decided to fix the camera. What I did was I recorded the coordinates where I moved Woody and Buzz, and then I put them back in the center of Andy's room. I imported the camera, and it was exactly like in the Animation file, except for the fact that they were in the center of the room. I then made a group containing Woody and Buzz, and put the camera in the group so it would move with Woody and Buzz. I then placed Woody and Buzz back on Andy's desk, with the camera perfectly in place."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/a2ndysroomthanksgiving__ThanksCamShape_beauty.0086.exr.png"
+caption = "Again, sorry about Buzz."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Troubleshooting"
+
+[[body.element]]
+tag = "h4"
+content = "With all that done, I decided to model a new Luxo lamp, because that inaccurate one in the background just wouldn't do. I gave it a simple red material, and decided I would surface it later."
+
+[[body.element]]
+tag = "h4"
+content = "After that, I referenced the real (and animated) Buzz and Woody into Andy's room. The problem was, they were in the middle of Andy's room. Easy solution: move and scale them how you want. However, this was not possible. Buzz could be put in the group with ThanksCam and he would be in the exact spot, but Woody would blow up into black triangles when I tried to do that to him. This is because Woody has a rig, and putting him into that group would also move each controller, not just his mesh. The problem was, his mesh alone couldn't be reparented or it would ruin his animation. I couldn't move the base of his rig because it was keyframed, so every time I moved it, it would go right back to the middle of Andy's room. I couldn't delete the keyframes because the referenced file was read-only from the Andy's room file. And even if I did that, there was no way to get Woody exactly where the stand-in Woody was (guessing isn't good enough)."
+
+[[body.element]]
+tag = "h4"
+content = "So if I couldn't move Buzz and Woody to the spot in Andy's room, then I'd have to move Andy's room to them. After a long time, using simple calculations, I determined how far in each direction to move Andy's room into the ground so that I wouldn't need to move Woody and Buzz at all. I also had to scale Andy's room down (so I wouldn't have to scale Buzz and Woody up, therefore messing up their materials), and rotate it."
+
+[[body.element]]
+tag = "h4"
+content = "Now the animated Woody and Buzz were in Andy's room, in the correct spot they were supposed to be:"
+
+[[body.element]]
+video = ["media/woodythanksgivings/blastYRkbod.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Maya Viewport Playblast. Textures were turned off because it used too much VRAM. Takes blood, sweat and tears, kids."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Rendercam copy.png"
+caption = "Buzz still doesn't have any materials. Woody has final materials (except for the white part of his eyes, they were too white). Luxo lamp doesn't have any materials yet, just a blue Lambert shader. If you look closely, you can actually see the individual stitches in Woody's cloth! Also the render's color got messed up because I accidentally added a transparent blue sky outside."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/Render0.png"
+caption = "Here, Buzz and the Luxo lamp have simple materials."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Surfacing the lamp"
+
+[[body.element]]
+tag = "h4"
+content = "Now with Woody and Buzz in Andy's room, now was the time to fix up, or rather destroy, the lamp in the background. I imported the Luxo lamp into Adobe Substance Painter and surfaced it there. I had no problems, except for some minor issues with the UVs. He turned out okay though. I imported him back into Maya and rendered it."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/LuxoSurfacing.png"
+caption = "I added a light so you could see the scratched up paint, exposing the raw metal."
+
+[[body.element]]
+tag = "h4"
+content = "Then I put it into Andy's room:"
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/FirstLuxo.png"
+caption = "Sorry about the noise, it takes FOREVER to render."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Buzz"
+
+[[body.element]]
+tag = "h4"
+content = "With the Luxo lamp done, I now needed to surface Buzz. I made another file with Buzz in his T pose, and surfaced in Maya. The scratches on him were a real challenge. I used an OSL shader for the scratches, but his UV's messed it up. I got it to look how I wanted, but his UV's scaled and stretched the scratches on different points on his body. I decided to use a PxrRoundcube, which projects an image from all angles onto a mesh. I used a scratch texture and projected it on him, therefore getting rid of the distortion I had previously experienced. It looked pretty much the same, but way faster at rendering! His reflections still made him look a little too hard, but I was running out of time and decided it was good enough."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/BuzzSurfacing__perspShape_beauty.0001.exr.png"
+caption = "Way to go, Super Buzzio!"
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Rendering"
+
+[[body.element]]
+tag = "h4"
+content = "Buzz was done, so now all I had to do was render it! But sadly, easier said than done. I only had 12 hours to render, and the animation had 84 frames. I originally wanted to render at 1080p, but that would take too long, so I lowered it to 720p. However, rendering 1 frame in 720p would take 1 hour at that quality, which was 256 samples per pixel (SPP). Rendering all the frames would take 3 and a half full days of rendering! So I optimized it as much as I could, doing things like turning down the refraction ray bounces to 2 (which made the view outside the window a little cloudy) or making the render non-incremental, or trying out the Pixar Unified Integrator. I did a few more tests and calculated that each frame could take up to 8 minutes to render in order to finish in 12 hours. I also calculated that each frame would have to be 25 SPP in order to render in 8 minutes. After a long time, everything was perfectly planned."
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/256s.png"
+caption = "Half-rendered 256 SPP"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodythanksgivings/25s.png"
+caption = "Full rendered 25 SPP, significantly lower quality."
+
+[[body.element]]
+tag = "h4"
+content = "However, life doesn't always go according to plan. When I clicked the batch-render button, Maya crashed. Exporting RIB: crash. Exporting anything: crash. After several failed attempts to troubleshoot the problem, I was running out of time. The only thing that would work, was the Batch Rendew Preview button, which would export the RIB and send it to LocalQueue and then Image Tool to render it. The problem was that it only renders one frame. So I had to click on every frame, and then wait a while, and then click on the Batch Render Preview button, 84 times to get it to render the whole thing. Hey, but it worked! Or so I thought."
+
+[[body.element]]
+tag = "h4"
+content = "After 2 hours it rendered 25 frames and then I saw something weird. Woody's mouth–it was... out of his head? The motion blur was breaking and causing the inside of Woody's mouth to appear outside or his head. It was creepy and certainly not going to work."
+
+[[body.element]]
+tag = "h4"
+content = "I deleted the images, turned off motion blur, and clicked each frame 84 more times to get it to render. It worked fine after that, and after 12 hours I had all 84 frames rendered. Now I just had to make a ton of images into a video."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Compositing and Editing"
+
+[[body.element]]
+tag = "h4"
+content = "I took all the renders and used Maya's Fcheck to compile the frames into a .mov file. The only problem was that it didn't have sound. Thanks to my previous animations, I had a line of code I could run to add sound to any video through FFmpeg. But it still wasn't selling. It had no background music."
+
+[[body.element]]
+video = ["media/woodythanksgivings/NoSound.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Final render. Rendered with Renderman. No sound."
+
+[[body.element]]
+video = ["media/woodythanksgivings/Sound.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Final render. Rendered with Renderman. Dialogue added."
+
+[[body.element]]
+tag = "h4"
+content = "Now for the background music. I searched through all of the files for all of the Toy Story Soundtracks (1, 2, 3, and 4). I found a few parts of some of the score that was short enough, had an ending, and fit the feel of the animation. I put them all together to decide which one I would use."
+
+[[body.element]]
+video = ["media/woodythanksgivings/HappyThanksGivingMusic.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+video = ["media/woodythanksgivings/2mono.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+video = ["media/woodythanksgivings/3mono.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+video = ["media/woodythanksgivings/1mono.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+video = ["media/woodythanksgivings/HappyThanksGivingMusicFinal.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h4"
+content = "It was pretty hard to choose between the last three, but I ended up choosing the last one. I won't go into the details on the audio editing because it gets a little complicated and boring. Anyway, I exported the final sound and put it with the animation and it came out like this:"
+
+[[body.element]]
+video = ["media/woodythanksgivings/ThanksgivingFinalRenderFinalSound.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Working time: 60 hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "That was one wild ride to have in two weeks, but I'm so happy with the results. If I could do this again I would put an orange light at the bottom left corner near the walls so it isn't that dark. I would also give myself more time!"

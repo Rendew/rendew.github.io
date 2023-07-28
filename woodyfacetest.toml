@@ -1,0 +1,38 @@
+title = "Woody Face Test"
+background = "media/gallery/WoodyFaceTest.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "October 19 - December 19, 2022"
+
+[[body.element]]
+video = ["media/woodyfacetest/WoodyBackground.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Working time: 60 hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon! Here are some iterations!:"
+
+[[body.element]]
+video = ["media/woodyfacetest/TestRender (Converted).mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Working time: 60 hrs. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+video = ["media/woodyfacetest/WoodyFaceTestQuality (Converted).mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 84. FPS: 24. Working time: 60 hrs. Rendered with Renderman."
+loop = true

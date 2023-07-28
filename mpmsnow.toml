@@ -1,0 +1,28 @@
+title = "MPM Snow Simulation"
+background = "media/gallery/Snow.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "December 14 - 29, 2021"
+
+[[body.element]]
+video = ["media/gallery/Snow.mp4", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 316. FPS: 29.97. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon! I have to dig through my really, really old files before I can be certain of anything that happened; I completely forgot everything."

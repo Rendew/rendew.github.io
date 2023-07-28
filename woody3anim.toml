@@ -1,0 +1,54 @@
+title = "Woody Toy Story 3 Animation"
+background = "media/gallery/Woody3Anim.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "July 7-15, 2022"
+
+[[body.element]]
+video = ["media/woody3anim/blastKe6evA.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 390. FPS: 29.97. Working time: 28 hrs. Maya Viewport Playblast."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "This was an animation test I did, partly for no reason, and partly because people say that doing nothing is the hardest when it comes to acting. I found it pretty simple."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Animation"
+
+[[body.element]]
+tag = "h4"
+content = "With the animation I wanted something that was loop-able, calm, and quiet. After a week the animation was done. Here are some iterations:"
+
+[[body.element]]
+video = ["media/woody3anim/blastNhTWWL.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 390. FPS: 29.97. Working time: 28 hrs. Maya Viewport Playblast. When he breathes in it's a little bland."
+
+[[body.element]]
+video = ["media/woody3anim/blastYNbg8n.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 390. FPS: 29.97. Working time: 28 hrs. Maya Viewport Playblast. I made him twist his hat too much."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "While it's not completely smooth, I'm still very happy with how it turned out. If I could go back and redo this, I'd make his eyes more circular at the beginning and end (because ovular looks creepy) and I'd make his mouth less flat when he closes it while fixing his hat. He also has some glitching issues with his arms and his eyes pop out of his eyelids sometimes when he blinks. But overall it was still really fun to do!"

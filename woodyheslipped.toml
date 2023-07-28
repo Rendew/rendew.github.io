@@ -1,0 +1,132 @@
+title = "Woody He Slipped"
+background = "media/gallery/RenderCamReferences.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "August 12, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/gallery/RenderCamReferences.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "I often wondered how people got shots done, from beginning to end, at places like Disney or Pixar. Woody “He Slipped” was an animation test to create and render a shot from beginning to end."
+
+[[body.element]]
+tag = "h2"
+content = "A Little Bug"
+
+[[body.element]]
+tag = "h4"
+content = "First, I created the model for Bug in Maya. Then I took a week surfacing him, also in Maya. After surfacing Bug, I animated him which was not a very smart choice, but it worked out. After a day,  Bug's animation was finished."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/Bugsurfacing.png"
+
+[[body.element]]
+video = ["media/woodyheslipped/blastQZ3q2E.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 23. FPS: 24. Working time: 16 hrs. Maya Viewport Playblast."
+
+[[body.element]]
+tag = "h2"
+content = "How Hard Can it Be?"
+
+[[body.element]]
+tag = "h4"
+content = "In order to make the shot, I needed to finalize the setting. Story-wise, Andy's room was needed. However, the files for Andy's room and the Woody rig were too big, and would crash and break if Woody was copied into Andy's room, or if Andy's room was copied into Woody's rig."
+
+[[body.element]]
+tag = "h4"
+content = "In order to have Woody in Andy's room without copying anything I used a nifty thing called “File Referencing” in Maya. Only five clicks and the files were referenced and everything worked perfectly, including rendering. I also referenced Bug's file, but I decided to copy Bug's file into the Woody rig file so I could have a tangible Bug when animating (especially because Woody “kicks” Bug in the animation). With Woody in the scene, I could start working on surfacing Andy's room."
+
+[[body.element]]
+tag = "h2"
+content = "Andy's Room"
+
+[[body.element]]
+tag = "h4"
+content = "Most of the texturing for Andy's room was done in Maya, but in order to make the fine details on the dresser (which I considered a hero model, considering how close it is to Woody) substance painter was used. After baking all the maps and importing into Maya, Andy's room was all surfaced."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/Andyunfinished.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/Andysroom.png"
+
+[[body.element]]
+tag = "h2"
+content = "Lights, Camera, Action!"
+
+[[body.element]]
+tag = "h4"
+content = "After placing the camera, I imported a stand-in Woody with basic phong materials. I gave the camera an anamorphic lens, played with the depth of field a bit, and gave it chromatic aberration. After playing with the light a bit, I decided what I wanted and put a reflective ball so I could see the whole room from the camera. After two days, the lighting was finished."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/lighttest.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/andysroom__RenderCamShape_beauty.0000.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/andysroom__RenderCamShape_beauty.0001.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/andysroom__RenderCamShape_beauty.0003.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyheslipped/andysroom__RenderCamShape_beauty.0003C.exr.png"
+
+[[body.element]]
+tag = "h2"
+content = "Animation"
+
+[[body.element]]
+tag = "h4"
+content = "After making a stand-in set in the Woody rig file, I began to think about how I would animate. Having to coordinate the timing was tricky. Woody needed to remain at a constant speed, to appear to kick Bug when bug was just about to slip. It helped to have Bug's animation finalized already. I decided to animate from “the kick” backwards to the beginning, and then forward to the end. I positioned Woody in the walk pose, so his foot was in the middle of moving forward, and then animated backwards to the beginning of the animation."
+
+[[body.element]]
+video = ["media/woodyheslipped/blastqLwjlJ.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 23. FPS: 24. Working time: 16 hrs. Maya Viewport Playblast."
+
+[[body.element]]
+video = ["media/woodyheslipped/blastVfljPn.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 23. FPS: 24. Working time: 16 hrs. Maya Viewport Playblast."
+
+[[body.element]]
+video = ["media/woodyheslipped/blastSnpdzh.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 23. FPS: 24. Working time: 16 hrs. Maya Viewport Playblast."
+
+[[body.element]]
+tag = "h4"
+content = "Now, the most typical artifact we have to deal with is noise in its various manifestations. Depending on the type of noise and its source, we need different techniques to identify and remove it."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "We're already telling the renderer at what quality to stop so why do we need additional controls? The reason for having these two additional settings is simply because adaptive sampling isn't perfect. We know that the renderer should stop rendering a pixel if the noise is low enough but how can the renderer know how much noise there is left?"

@@ -1,0 +1,331 @@
+title = "Woody Run Pose"
+background = "media/woodyrunpose/WoodyRunPose__perspShape_beauty.0000.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "July 18-August 10, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/WoodyRunPose__perspShape_beauty.0000.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "One day, after viewing some of my previous renders, I decided that Woody's materials could be better. However, this meant surfacing Woody for the 6th time. I decided that this time, I was going full out, sparing no detail. After posing Woody, inspired by the posters for the first Toy Story, I went through all Woody's materials, fixing them up as a base for surfacing. I also did some quick lighting so I could see what I was doing. The first thing I decided to resurface was Woody's hat, because it looked awful."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/RenderWoodyRunPose.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h2"
+content = "What's a Sheriff Without His Hat?"
+
+[[body.element]]
+tag = "h4"
+content = "After going through all his materials, I collected reference images from all the Toy Story movies and analyzed them. How rough was the material? How much did it reflect? How diffused was the reflection? What color does it reflect? Does it have a repeatable pattern? Does it have variance throughout the material? How can I make the variance? What are the properties of the variance? How much does the material vary? I had to ask myself all these questions before starting any surfacing."
+
+[[body.element]]
+tag = "h4"
+content = "I fixed the subsurface scattering, the roughness and the scratches. After wrestling with it for a long time, it finally looked the way I wanted; a deep chocolate, bendable, plastic color with scratches that don't make it look like it's water damaged."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Hatbroken.png"
+caption = "The old hat looks dusty and water damaged."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Hatfixed.png"
+caption = "The new hat looks perfectly plastic-like."
+
+[[body.element]]
+tag = "h2"
+content = "Blue Jeans"
+
+[[body.element]]
+tag = "h4"
+content = "Resurfacing Woody's Jeans posed a lot of problems. The texture I was using was really low-quality. After color correcting the texture, it looked like it had a sheet of blue over it, not allowing you to see the grooves or stitches very well. I color corrected it again, and saturated the image so you could see the lines more easily. However, the lines of the texture are a little too visible, which prevents you from seeing the actual bump of the denim. Blurring the texture would get rid of the orange stitches and other details, so I just decided to keep the texture as it was. I also added sheen to suggest the feeling of soft cotton denim."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Jeansbroken.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Jeansfixed.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h2"
+content = "Weaving"
+
+[[body.element]]
+tag = "h4"
+content = "Woody's cloth also needed to be retouched. The bump I was using before, was way too much, due to the use of a solid white dome-light, which made all the shadows grey, instead of black. In order to compensate, I made the bump of his shirt way more than it should. In this new surfacing, I had not used a solid white dome-light because it ruined the color and gave the image an “old” look. After analyzing the reference images from Toy Story 4, I found that his shirt was made from 100% cotton, with a twill weave to the fabric. My Woody did not have any actual threads to his cloth. I was using a low quality texture to fake the effect of a twill weave which gave it a low quality, blurry look. After doing some research, I wrote an OSL shader generate the twill weave and tested it out on a stand-in-Woody."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/clothtest.png"
+
+[[body.element]]
+tag = "h4"
+content = "I then integrated the OSL shader onto Woody's cloth; both his vest and his shirt. After playing with the amount of bump, I finally reached something I wanted. I also realised that the black and white plastic around Woody's vest was slightly blue, so I quickly fixed it. After that, I fixed the roughness of the cloth."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Screen Shot 2022-08-04 at 9.05.22 PM.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Screen Shot 2022-08-05 at 8.50.29 PM.png"
+
+[[body.element]]
+tag = "h2"
+content = "Under the Surface"
+
+[[body.element]]
+tag = "h4"
+content = "Subsurface scattering is a big part of the real world and the CGI world. Woody's face and hands are made of polyvinyl plastic, which has a soft squishy look. Subsurface scattering (SS) gives objects that soft squishy look. I added SS to all of Woody's materials, but ran into a problem when it came to his face and hands. His face and hands use the same material, but Woody's face has an inside and an outside to the mesh because he has a mouth. In other words, Woody's face has an extra layer of polygons which prevents light from traveling through his face, and therefore omitting the SS effect. I could turn up the SS to accommodate that, but then his hands would get over-exposed. I tried to create a different material for his face, but for some reason, his face ended up dark and strange-looking even though the materials were identical. I had to revert back to the original material and choose a middle ground between his hands and his face."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/subsurface.png"
+caption = "The difference between the SS in his hands and his face are noticable."
+
+[[body.element]]
+tag = "h4"
+content = "A problem also occurred when adding Subsurface Scattering to Woody's clothes. Weird green splotches would appear where shadows should be. I thought it was because I was color-correcting the texture that drove the SS, but when I changed it, it was still green. After lots of testing, I couldn't find a way to fix it, so I left it as it was."
+
+[[body.element]]
+tag = "h2"
+content = "Facing a Different Direction"
+
+[[body.element]]
+tag = "h4"
+content = "When reviewing my renders, I realized that Woody's belt looked a little strange. From different angles it would look like it was facing a different direction than it was facing. This was clearly a normal map problem, so I quickly fixed it. I fixed the normal maps and corrected the color, subsurface scattering and roughness."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Beltbroken.png"
+caption = "The lighting on the right of the belt is distorted due to the broken normal map."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Beltfixed.png"
+caption = "The fixed belt doesn't have any lighting distortion."
+
+[[body.element]]
+tag = "h2"
+content = "The Sheriff Badge"
+
+[[body.element]]
+tag = "h4"
+content = "I also added Subsurface Scattering to Woody's Sheriff badge and fixed the roughness and bump of the badge as well. In Toy Story, the words “SHERIFF” bump out of Woody's badge, but I couldn't find a way to edit the normal map."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Badgebroken.png"
+caption = "The old Sheriff Badge looks too brown and metallic."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Badgefixed.png"
+caption = "Subsurface scattering added and color corrected."
+
+[[body.element]]
+tag = "h2"
+content = "Bandana Spots"
+
+[[body.element]]
+tag = "h4"
+content = "For a long time the spotty designs on Woody's bandana were not as white as they should be. Instead they were an discolored grey/red color. I couldn't fix it before, because correcting the color of the designs would ruin the red color of the rest. But was there another way? In photoshop I deleted the red part of the texture, leaving transparency where they it been. I used this as a mask to edit the color of only the designs using a Pxr Blend node."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bandanabroken.png"
+caption = "Here you can see how discolored the designs are."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bandanafixed.png"
+caption = "The mask I used for the color correction."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bandanabroken2.png"
+caption = "Old Bandana from the 5th surfacing of Woody."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bandanafixed2.png"
+caption = "New Bandana with color correction."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Normal Looking Cloth"
+
+[[body.element]]
+tag = "h4"
+content = "When comparing Woody to my reference, I realized that Woody didn't have any wrinkles or subtle dips in his cloth. This would definitely make a huge difference in the way the cloth looked. Instead of doing expensive cloth simulations or actually displacing the mesh, I decided I could just use normal maps. After layering a ton of normal maps, the shading graph looked like this:"
+
+[[body.element]]
+tag = "h4"
+content = "(picture of graph)"
+
+[[body.element]]
+tag = "h4"
+content = "I layered some more normal maps for his vest, bandana, and his jeans as well."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Boots"
+
+[[body.element]]
+tag = "h4"
+content = "Woody's boots have stayed pretty much the same since the first time I surfaced Woody. After analyzing my reference, I realized that Woody's boots have small bumps, and imprints of cactuses and ropes on them. I fixed the Subsurface scattering and the color of his boots before adding cactuses and ropes to his normal map. I also added small bumps to his boots, but I made them bigger later. The bumps on the real Woody's boots are pretty big, but for some reason the ones I gave my Woody's boots make them look like dinosaur skin. I couldn't blur the normal map because it was an OSL shader. They look fine from far away, so I decided not to worry about it. I also layered a ton of scratch maps on his boots as well."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bootbroken1.png"
+caption = "This is what Woody's boot looked like after I went though all the materials at the beginning."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bootbroken.png"
+caption = "Woody's boot with SS and less roughness."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bootfixed.png"
+caption = "Woody's boot with new bump, scratches and custom normal map."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Looking at Things Up Close"
+
+[[body.element]]
+tag = "h4"
+content = "My reference images suggested that Woody has a lot of tiny micro-scratches on his eyes. After adding Subsurface scattering and fixing the gloss, I wrote an OSL shader to take care of the micro-scratches."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/microeyescratches.png"
+caption = "The micro-scratches (as their name implies) are too small to see in this image."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Plastic Hair"
+
+[[body.element]]
+tag = "h4"
+content = "When looking at my Woody's hair, it looked solid and textureless. Well, that's because it was. After checking my reference, I saw that Woody's hair has slight waviness to it, like an old window or the skin of an apple. It also has tiny brush marks from the paintbrush that painted it, and tiny scratches. After adding all of that, I added Subsurface scattering and fixed the roughness."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Hairbroken.png"
+caption = "Woody's hair from the first surfacing."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Hairfixed.png"
+caption = "Woody's hair with brush marks, scratches, and fixed roughness."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "The Belt Buckle"
+
+[[body.element]]
+tag = "h4"
+content = "After fixing the Subsurface Scattering of Woody's belt buckle, I saw that the normal map with the cow design wasn't as deep as it should be. I layered the normal map on top of itself to fix that. I also created a metal shader to the little hinge that holds on Woody's holster, and created a gem shader for the red gem on Woody's holster."
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bucklebroken.png"
+id = "pageimagelong"
+caption = "Belt buckle from the 5th surfacing."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/Bucklefixed.png"
+id = "pageimagelong"
+caption = "Belt buckle with slightly more bump and fixed roughness."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "I'm very happy with the results; now Woody can handle a closeup shot!"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/RenderWoodyRunPose.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woodyrunpose/WoodyRender6.png"

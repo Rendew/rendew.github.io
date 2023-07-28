@@ -1,0 +1,27 @@
+title = "Woody Material Pose"
+background = "media/woodymaterialpose/WoodyMaterialPoseHair__perspShape_beauty.0000.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy Disney/Pixar."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "February 25 - March 15, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/woodymaterialpose/WoodyMaterialPoseHair__perspShape_beauty.0000.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"

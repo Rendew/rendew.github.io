@@ -1,0 +1,27 @@
+title = "Tinny"
+background = "media/tinny/TinnyV3.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Not property of Rendew."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "December 19 - December 30, 2022"
+
+[[body.element]]
+tag = "img"
+src = "media/tinny/TinnyV3.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Coming soon!"

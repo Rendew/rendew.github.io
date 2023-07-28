@@ -1,0 +1,190 @@
+title = "Woody Test Animation"
+background = "media/gallery/WoodyTestAnim.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "March 8 - April 8, 2022"
+
+[[body.element]]
+video = ["media/WoodyTestAnimationFinal.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 316. FPS: 29.97. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "Having just finished Woody Material Pose, I wanted to do what animation studios do: animate. With Woody fresh and newly surfaced, I decided he was ready for an animation. After looking for lines to animate to, I found one from Turner and Hooch, a movie Tom Hanks (Woody) had done for Disney in 1989, just 3 years before he started voice acting for Toy Story."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Concept"
+
+[[body.element]]
+tag = "h4"
+content = "I didn't know what I was going to do set-wise, because I didn't want to spend all my time working on a set. So I decided that Woody was just going to be in a black world."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Animation"
+
+[[body.element]]
+tag = "h4"
+content = "To do the animation for this was really hard, and I spent weeks doing it. I started animating in 29.97 FPS, which caused me a lot of trouble down the road, but helped me learn a lot. By the way, this way of doing animation is not useful, and I would implore you (if you are studying animation) to learn the right way to do animation. I have thousands of unfinished versions of it, so I'll only show a few."
+
+[[body.element]]
+video = ["media/woodytestanimation/z1.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Body animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z2.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Left hand animation partially completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z3.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Left hand and shoulders' animation completed, but right hand animation is partially completed. Eyebrow expression changed because it was bugging me."
+
+[[body.element]]
+video = ["media/woodytestanimation/z4.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Both hands' animation and legs animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z5.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Head, eyes, and body segments' animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z6.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Eyelid animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z7.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Mouth animation partially completed and eyebrow animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z8.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Mouth animation still partially completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z9.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Mouth animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z10.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Left hand fingers, arm segments, and elbow direction animation completed."
+
+[[body.element]]
+video = ["media/woodytestanimation/z11.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Final cleanup (fixes eyes). This is what was rendered."
+
+[[body.element]]
+video = ["media/woodytestanimation/Final.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 29.97. Maya Viewport Playblast. Fixed hand sticking into body. Holster animation completed. Not rendered."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Rendering"
+
+[[body.element]]
+tag = "h4"
+content = "When the animation was partially done, I decided to render it. I put some quick lighting (which I'm very surprised it did not change the look very much because lighting can drastically change the way animation is viewed) and waited 4 hours for it to render. After all 316 frames were rendered, I had to compile them into a video, the only problem was... how?"
+
+[[body.element]]
+tag = "h4"
+content = "When making <strong>New Again</strong>, I made a way of losslessly compiling frames into a video, but when I tried to do it, it came out super slow:"
+
+[[body.element]]
+video = ["media/woodytestanimation/WoodyTestAnimationOriginalC.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "FPS: 24. Rendered with Renderman."
+
+[[body.element]]
+tag = "h4"
+content = "This was because I animated at 29.97 fps (Frames per second). But first we have to answer the question, “What is a frame rate?”"
+
+[[body.element]]
+tag = "h4"
+content = "Since I'm not expert, let me quote from Adobe:"
+
+[[body.element]]
+tag = "h4"
+content = "“To the human eye, film and video seem to play as one continuous recording. But in actuality, cameras record pictures of multiple images, called frames. These frames are played back at such a fast rate that they appear to be in fluid motion. Frame rate is the measurement of how quickly a number of frames appears within a second, which is why it’s also called FPS (frames per second)."
+
+[[body.element]]
+tag = "h4"
+content = "Motion pictures, TV broadcasts, streaming video content, and even smartphones use the standard frame rate of 24fps. This speed accounts for a phenomenon called motion blur, an optical effect that makes moving objects look out of focus due to quick movement."
+
+[[body.element]]
+tag = "h4"
+content = "'If you were at a baseball game and someone hit a ball, you would see a little bit of a motion blur,' director Margaret Kurniawan explains. 'You don’t see things totally clearly. So at 24 frames per second, it shows that there’s a little bit of motion blur, but most things are clear enough that it makes logical sense in your mind.'” (A beginner’s guide to frame rates in movies | adobe)"
+
+[[body.element]]
+tag = "h4"
+content = "So if I take 29.97 pictures, or frames, a second, and I play only 24 of them a second, then it will appear to move slower. This is, in essence, how slow motion videos work."
+
+[[body.element]]
+tag = "h4"
+content = "But, of course, this was not the time to reinvent slow motion. I had two options: get rid of some of the frames to make it 24 fps, or find a way to compile it into a video with 29.97 fps. I chose the latter."
+
+[[body.element]]
+tag = "h4"
+content = "But how does one do this? I resorted to a command-line tool called FFmpeg. After a lot of trial and error and research, I finally came up with a way to do it (all of these commands only work on MacOS)."
+
+[[body.element]]
+tag = "h4"
+content = "<strong>1:</strong> Make sure that your frames are <code>.png</code>. If not, open terminal and type in <code>cd [path to folder with all of the frames]</code> (Make sure this folder has only frames and not important files or this could be disastrous.) Then type in <code>sips -s format png ./*</code> This will change the format of all of the frames to <code>.png</code>, but not the actual extension. The files will be a <code>.png</code>, but they might say they are a <code>.exr</code> or <code>.tif.</code> To change that, type <code>for f in *.[exr or tiff, whichever the frames are]; do mv “$f” “${f%.[exr or tiff]}.png”; done</code> You should also make sure that your frames are numbered."
+
+[[body.element]]
+tag = "h4"
+content = "<strong>2:</strong> Compile the frames into a 24 fps video. To do that, (make sure you are still in the folder with all the frames) type, <code>ffmpeg [or path to FFmpeg binary] -y -i ./[name of frame]%d.png -s [size]x[size] -vf lutrgb=r=gammaval\\(0.48\\):g=gammaval\\(0.52\\):b=gammaval\\(0.52\\) -start_number 1 -vcodec libx264 -pix_fmt yuv420p -preset slow -crf 1 -r 24 [output].mp4 [or .mov]</code>"
+
+[[body.element]]
+tag = "h4"
+content = "Where it says, <code>./[name of frame]%d.png</code> it doesn't have to be exactly that way. <code>%d</code> is where the number is. For example, if my frames are called “woodyanimation1.png, woodyanimation2.png, etc.” then I would put <code>./woodyanimation%d.png</code> Also, the color might not be exactly like the frames, so you can change and experiment with that by changing where it says, <code>r=gammaval\\(0.48\\):</code> and change the values to what you want."
+
+[[body.element]]
+tag = "h4"
+content = "<strong>3:</strong> Change the frame rate. Still in terminal, type <code>ffmpeg [or path to FFmpeg binary] -fflags +genpts -r [framerate, in this case:] 29.971456 -i [file you want to change].mp4 -i [same file].mp4 -map 0:v -c:v prores_ks -map 1:a? -af atempo=1.24875 -movflags faststart [new output].mov</code>"
+
+[[body.element]]
+tag = "h4"
+content = "<strong>4:</strong> If you need, add sound. Type in, <code>ffmpeg [or path to ffmpeg binary] -i [the video you wish to add sound to].mp4 -i [the sound file].mp3 [or whatever file the audio is] -c copy -map 0:v:0 -map 1:a:0 [final output].mp4</code>"
+
+[[body.element]]
+tag = "h4"
+content = "After finishing the animation, I rendered it again and used those commands. It finally turned out like this:"
+
+[[body.element]]
+video = ["media/WoodyTestAnimationFinal.mov", "media/WoodyTestAnimationFinal.mp4"]
+caption = "Frames: 316. FPS: 29.97. Rendered with Renderman."
+loop = true
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "I'm very, very proud of this animation and how much work it took. One thing I'd fix is his right eye is drooping downward slightly!"
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Notes"
+
+[[body.element]]
+tag = "h4"
+content = "“A Beginner’s Guide to Frame Rates in Movies | Adobe.” A Beginners Guide to Frame Rate in Movies, Adobe, https://www.adobe.com/creativecloud/video/discover/frame-rate.html."

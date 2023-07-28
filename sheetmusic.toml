@@ -1,0 +1,111 @@
+title = "Sheet Music"
+background = "media/projects/music.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew."
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "???, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/projects/music.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "In my free time I like to arrange/transcribe pieces. All of these were done completely by Rendew. Musescore is credited as the program used."
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "A Whole New World"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/A_Whole_New_World3.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Be Our Guest"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/Be_Our_Guest2.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Beauty and the Beast"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/Beauty_and_the_Beast.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Colors of the Wind"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/Colors_of_the_Wind.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Lost in the Woods"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/Lost_in_the_Woods_Final_Final.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "Santa Fe"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/Santa_Fe_Final_Final.m4a", "media/WoodyTestAnimationFinal.mp4"]
+
+[[body.element]]
+tag = "h2"
+id = "pagesub1"
+content = "The Spirit of Adventure"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+video = ["media/projects/scores/The_Spirit_of_Adventure.m4a", "media/WoodyTestAnimationFinal.mp4"]

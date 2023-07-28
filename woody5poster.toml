@@ -1,0 +1,341 @@
+title = "Toy Story 5 Poster"
+background = "media/woody5poster/Woody5Poster9 copy.png"
+
+[head]
+
+[[head.element]]
+credits = "Created by Rendew. Woody &copy; Disney/Pixar"
+
+[body]
+
+[[body.element]]
+tag = "hr"
+
+[[body.element]]
+date = "February 28 - March 15, 2023"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster9.png"
+
+[[body.element]]
+tag = "h2"
+content = "Overview"
+
+[[body.element]]
+tag = "h4"
+content = "After finding out Toy Story 5 was in the works, some ideas about doing a fake poster started forming in my mind. After some thought, I decided to go all in and make a poster that was so believable people would think it was from Pixar."
+
+[[body.element]]
+tag = "h2"
+content = "Brainstorming"
+
+[[body.element]]
+tag = "h4"
+content = "I started by looking at posters from Toy Story 4. I definitely didn't want to go as far as a complete full-blown theatrical poster, because that would require all main characters to be modeled and surfaced. I settled on a teaser poster, and started viewing reference from the teaser posters from Toy Story 4. Their beige backgrounds didn't reveal much of the film's theme, look or feel, which would help since nobody knows what Toy Story 5 looks like yet. I also wanted it to look dramatic; this is Woody's 5th adventure, not something to be taken lightly."
+
+[[body.element]]
+tag = "h4"
+content = "It also had to be as photorealistic as possible, much like Toy Story 4, but it couldn't look like anything too familiar. The aesthetic of Toy Story 4 celebrates it's history by making it look and feel authentically aged, using music from the 80s in it's trailers and other things. I wanted to piggyback off of this vintage idea and then came the idea: an old photograph. It was perfect! Plus, if I did it in black and white, it would hide the strange issue I have with Woody's cloth which makes it turn green. This would make it all the more believable."
+
+[[body.element]]
+tag = "h2"
+content = "Making a Dream Come True"
+
+[[body.element]]
+tag = "h4"
+content = "I had a clear idea of what it was going to look like, so I got into Maya and started posing Woody. I wanted a huge closeup on his face, showing a look that wasn't frightening or confusing, while not giving away anything. Just a plain calm look. I didn't go crazy posing the mouth because that takes a lot of time. Once I thought the pose was good enough I framed him."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0000.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0001.exr.png"
+id = "pageimagelong"
+caption = "You may notice this has the same lighting from Woody Dialogue Test."
+
+[[body.element]]
+tag = "h4"
+content = "This was the final framing and I didn't changed it after. Next item on my list: lighting."
+
+[[body.element]]
+tag = "h4"
+content = "I wanted simple lighting, a single spotlight on his face. So I deleted the lighting that was already there and put a single light in front of Woody and spent a few minutes putting it in the right place."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0002.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I split the light into two oval shaped lights to get a more soft, cloudy look."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0004.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I then used a PxrLightBlocker to make the light gradient to black near the bottom of the image to draw more attention to his face."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0005.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I clearly needed some posing changes because his hat was making a shadow on his eyebrows and I wanted his body to be twisted the other way. So I stopped lighting to fix his pose."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0006.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "Then I brought in some rim lights for his hat."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0007.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0008.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I figured that was enough and added some anamorphic depth of field for the camera to make it look more photorealistic."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0009.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h2"
+content = "Surfacing"
+
+[[body.element]]
+tag = "h4"
+content = "Woody's materials didn't need so much attention because I've been perfecting them for years now, so they're decent enough just to use, but here and there they need a little help. I pulled in my new sheriff badge, eye, face, and bandana shaders I made for Woody Look Right Revamped."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0011.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0012.exr.png"
+id = "pageimagelong"
+caption = "This new skin shader was way better, especially for this lighting."
+
+[[body.element]]
+tag = "h4"
+content = "Then I did some minor fixes to Woody's pose again, hiding his right arm behind his body and fixing his mouth slightly."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0014.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I thought it looked pretty good, except for one thing that stuck out like a sore thumb: his sheriff badge. It was a dead giveaway. It looked fake. So I went into deep detail to make it look more accurate, using a mask to get rid of the normal map on the words so they were more readable. I also got rid of the normal map on the balls at the ends of the star because they were strangely pointy."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__cameraShape3_beauty.0017.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0018.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I also felt like the glint on his eyebrow was a little too much, so I turned it down. I also saw that the real Woody's eyebrows don't cast a shadow, so I did that to my Woody too."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0019.exr.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h2"
+content = "Editing"
+
+[[body.element]]
+tag = "h4"
+content = "When a decent enough image was rendered enough I took them and put them into photoshop and painted a background layer and added a sepia effect, along with a placeholder Toy Story 4 logo. I found the exact font they used for the Toy Story 4 posters  (JUNE 2019), changed it to June 2025 (which is most likely when Toy Story 5 comes out) and played around with the placement."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster4.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster6.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "Now for a real problem: the Toy Story logo."
+
+[[body.element]]
+tag = "h4"
+content = "I had to completely re-create the Toy Story logo. The logo was probably the most important part; if people didn't believe the logo, they wouldn't believe the poster. It had to look super accurate or it wouldn't sell (in a metaphorical sense, I didn't actually sell the poster)."
+
+[[body.element]]
+tag = "h4"
+content = "I thought about the way I would approach this. Should I model the logo from scratch? Should I find the fonts and recreate it that way? Should I sketch it in 2D and extrude it? As that last question came to my head I got a great idea. Instead of modeling it from scratch or using fonts, I would use the actual logo! What I mean is, I'd download the Svg version of the Toy Story 4 logo, and then extrude the faces, chamfer them and use that."
+
+[[body.element]]
+tag = "h4"
+content = "So I took the Svg and extruded it and chamfered it, making sure everything was extruded and translated the right amount to create the correct amount of depth. I analyzed the Toy Story logo and began lighting and surfacing."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0001.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0002.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0003.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0004.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0005.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0006.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0007.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0008.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0009.exr.png"
+
+[[body.element]]
+tag = "h4"
+content = "I tried the logo on the poster:"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster7.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "I had worked so hard and it just didn't look right. So I thew away the model and started again. By this point I had actually found the correct Toy Story font used that to make the 5, which looked nothing like other fan-made 5s. So I fixed the lighting around the new model and it ended up looking much better."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0010.exr.png"
+
+[[body.element]]
+tag = "h4"
+content = "But still not good enough. So I kept tweaking the lighting and materials."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0012.exr.png"
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0014.exr.png"
+
+[[body.element]]
+tag = "h4"
+content = "And finally ended with something that was good enough."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/ToyStoryLogo__ShotCamShape_beauty.0021.exr.png"
+
+[[body.element]]
+tag = "h4"
+content = "With the logo done, I had one more thing to do: grooming. I used my previous variables and shaders and groomed Woody with his cloth hair. It added a nice glint in the back and even some anamorphic oval bokeh on the knot of his bandana."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0019.exr.png"
+id = "pageimagelong"
+caption = "Not groomed."
+
+[[body.element]]
+tag = "h4"
+content = ""
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster__ShotCamShape_beauty.0020.exr.png"
+id = "pageimagelong"
+caption = "Groomed."
+
+[[body.element]]
+tag = "h4"
+content = "Now that Woody was finalized I could put him with the logo and see how it looked."
+
+[[body.element]]
+tag = "img"
+src = "media/woody5poster/Woody5Poster9.png"
+id = "pageimagelong"
+
+[[body.element]]
+tag = "h4"
+content = "It was perfect, but noisy because it was just an IPR, not a final render, so waited 8 hours for the final render to finish. When it was done, I put it together for the last and final time."
+
+[[body.element]]
+tag = "h2"
+content = "Conclusion"
+
+[[body.element]]
+tag = "h4"
+content = "It was such a great experience to create this poster and I learned a lot. Can't wait for Toy Story 5!"
